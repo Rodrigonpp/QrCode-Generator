@@ -1,0 +1,60 @@
+.main-container {
+  background-color: rgb(177, 184, 159, 0.53);
+  box-shadow: rgba(0, 0, 0, 0.25) 5px 5px 5px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 5px 5px 5px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.25) 5px 5px 5px 2px;
+  width: 500px;
+  min-height: 232px;
+  border-radius: 15px;
+  padding: 1.4rem;
+}
+
+.main-container h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.main-container p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+form {
+  max-width: 400px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input,
+button {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px #757575 solid;
+  padding: 0 10px;
+}
+
+button {
+  border: none;
+  color: #6d765b;
+  font-weight: bold;
+  font-size: 0.9rem;
+  background-color: rgba(220, 226, 214, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 2px 1px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 2px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 2px 1px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: rgba(220, 226, 214, 1);
+}
+
+button:active {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
